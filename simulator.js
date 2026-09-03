@@ -74,10 +74,10 @@ function createWheel(x, z) {
     car.add(wheel);
 }
 
-createWheel(-1.2, -1.2);
-createWheel(1.2, -1.2);
-createWheel(-1.2, 1.2);
-createWheel(1.2, 1.2);
+createWheel(-1.2, -1.05);
+createWheel(1.2, -1.05);
+createWheel(-1.2, 1.05);
+createWheel(1.2, 1.05);
 function animate() {
     requestAnimationFrame(animate);
 
