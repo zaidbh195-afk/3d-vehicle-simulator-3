@@ -78,3 +78,10 @@ createWheel(-1.2, -1.2);
 createWheel(1.2, -1.2);
 createWheel(-1.2, 1.2);
 createWheel(1.2, 1.2);
+function animate() {
+    requestAnimationFrame(animate);
+
+    renderer.render(scene, camera);
+}
+
+animate();
