@@ -22,3 +22,17 @@ document.body.appendChild(renderer.domElement);
 camera.position.set(6, 4, 8);
 
 camera.lookAt(0, 0, 0);
+const groundGeometry = new THREE.PlaneGeometry(100, 100);
+
+const groundMaterial = new THREE.MeshBasicMaterial({
+    color: 0x555555
+});
+
+const ground = new THREE.Mesh(
+    groundGeometry,
+    groundMaterial
+);
+
+ground.rotation.x = -Math.PI / 2;
+
+scene.add(ground);
