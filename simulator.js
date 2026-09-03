@@ -47,7 +47,7 @@ const car = new THREE.Mesh(
     carMaterial
 );
 
-car.position.y = 0.75;
+car.position.y = 0.25;
 
 scene.add(car);
 const wheelGeometry = new THREE.CylinderGeometry(
