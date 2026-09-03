@@ -36,7 +36,7 @@ const ground = new THREE.Mesh(
 ground.rotation.x = -Math.PI / 2;
 
 scene.add(ground);
-const carGeometry = new THREE.BoxGeometry(2, 1, 4);
+const carGeometry = new THREE.BoxGeometry(4, 1, 2);
 
 const carMaterial = new THREE.MeshBasicMaterial({
     color: 0x0066ff
