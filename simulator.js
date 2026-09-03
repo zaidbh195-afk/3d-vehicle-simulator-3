@@ -61,7 +61,7 @@ const wheelMaterial = new THREE.MeshBasicMaterial({
     color: 0x222222
 });
 
-function createWheel(x,0.75,z) {
+function createWheel(x,0.25,z) {
     const wheel = new THREE.Mesh(
         wheelGeometry,
         wheelMaterial
@@ -69,7 +69,7 @@ function createWheel(x,0.75,z) {
 
     wheel.rotation.x = Math.PI / 2;
 
-    wheel.position.set(x, 0.5, z);
+    wheel.position.set(x, 0.25, z);
 
     car.add(wheel);
 }
