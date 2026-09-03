@@ -47,7 +47,7 @@ const car = new THREE.Mesh(
     carMaterial
 );
 
-car.position.y = 0.25;
+car.position.y = 0.75;
 
 scene.add(car);
 const wheelGeometry = new THREE.CylinderGeometry(
@@ -61,7 +61,7 @@ const wheelMaterial = new THREE.MeshBasicMaterial({
     color: 0x222222
 });
 
-function createWheel(x,0.25,z) {
+function createWheel(x,0.75, z) {
     const wheel = new THREE.Mesh(
         wheelGeometry,
         wheelMaterial
