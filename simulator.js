@@ -67,7 +67,7 @@ function createWheel(x, z) {
         wheelMaterial
     );
 
-    wheel.rotation.z = Math.PI / 2;
+    wheel.rotation.x = Math.PI / 2;
 
     wheel.position.set(x, 0.5, z);
 
