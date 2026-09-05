@@ -38,10 +38,8 @@ ground.rotation.x = -Math.PI / 2;
 
 scene.add(ground);
 
-function animate() {
-    requestAnimationFrame(animate);
-
-    renderer.render(scene, camera);
-}
-
-animate();
+export {
+    scene,
+    camera,
+    renderer
+};
